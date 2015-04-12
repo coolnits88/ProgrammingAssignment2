@@ -16,6 +16,7 @@
 ##  cacheMatrix$getInverse()                 # Private function used to get the cached inverse of x
 
 ## Create a cacheMatrix object for an invertale matrix.
+## Stores inverse of matrix if calculated
 
 makeCacheMatrix <- function(x = matrix()) {
   i <- NULL
